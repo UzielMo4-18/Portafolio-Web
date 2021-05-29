@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(187, 235, 223);
+}
+
+footer{
+    text-align: center;
+}
+
+.icono{
+    font-size: 48px;
+    color: antiquewhite;
+}
+
+.div_color{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    width: 16vh;
+    height: 6.2vw;
+}
+
+.card-p-body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.my_div_table{
+    overflow-y: scroll;
+    width: 100%;
+    height: 300px;
+}
