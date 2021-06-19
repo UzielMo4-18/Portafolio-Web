@@ -1,9 +1,40 @@
 body{
     background-color: rgb(187, 235, 223);
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 footer{
     text-align: center;
+}
+
+.p-v1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    color: darkslateblue;
+}
+
+.p-emphasis{
+    font-style: oblique;
+    font-weight: bold;
+    font-kerning: none;
+    color: coral;
+}
+
+.img-figure{
+    margin: auto;
+    max-width: fit-content;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 5%;
+}
+
+.nav-menu:hover{
+    color: blueviolet;
+    font-weight: 600;
 }
 
 .icono{
@@ -29,4 +60,26 @@ footer{
     overflow-y: scroll;
     width: 100%;
     height: 300px;
+}
+
+.btn-style{
+    border: none;
+    display: inline-block;
+}
+
+.btn-style.pr:hover{
+    background-color: aquamarine;
+    color: rgb(0, 43, 87);
+}
+
+.btn-style.res-warn:hover{
+    background-color: red;
+    text-transform: uppercase;
+}
+
+.text-f{
+    border-style: dotted;
+    background-color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
 }
