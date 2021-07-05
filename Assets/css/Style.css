@@ -24,6 +24,7 @@ footer{
 }
 
 .img-figure{
+    padding-top: 15%;
     margin: auto;
     max-width: fit-content;
     border-top-left-radius: 50%;
